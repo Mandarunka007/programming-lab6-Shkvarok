@@ -19,9 +19,9 @@ jobs:
       with:
         python-version: "3.11"
 
-    - name: Run program
+    - name: Run word_count.py automatically
       run: |
-        echo "Тестовий запуск програми"
-        python word_count.py <<EOF
-        Це приклад тексту для перевірки.
+        echo "=== Запуск програми ==="
+        python programming-lab6-Shkvarok/word_count.py <<EOF
+        Це тестовий текст для автоматичного запуску.
         EOF
