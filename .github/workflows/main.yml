@@ -22,6 +22,6 @@ jobs:
     - name: Run word_count.py automatically
       run: |
         echo "=== Запуск програми ==="
-        python programming-lab6-Shkvarok/word_count.py <<EOF
+        python Documents/programming-lab6-Shkvarok/word_count.py <<EOF
         Це тестовий текст для автоматичного запуску.
         EOF
